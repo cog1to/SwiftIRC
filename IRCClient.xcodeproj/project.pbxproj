@@ -10,6 +10,20 @@
 		CFE93BD820A351E900158F83 /* IRCClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE93BCE20A351E900158F83 /* IRCClient.framework */; };
 		CFE93BDD20A351E900158F83 /* IRCClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE93BDC20A351E900158F83 /* IRCClientTests.swift */; };
 		CFE93BDF20A351E900158F83 /* IRCClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE93BD120A351E900158F83 /* IRCClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFE93BEE20A3521700158F83 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE93BE920A3521700158F83 /* Controller.swift */; };
+		CFE93BEF20A3521700158F83 /* IRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE93BEA20A3521700158F83 /* IRC.swift */; };
+		CFE93BF020A3521700158F83 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE93BEB20A3521700158F83 /* Message.swift */; };
+		CFE93BF120A3521700158F83 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE93BEC20A3521700158F83 /* Client.swift */; };
+		CFE93BF220A3521700158F83 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE93BED20A3521700158F83 /* Event.swift */; };
+		CFE93C0120A3524900158F83 /* IRCClient_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE93BF820A3524800158F83 /* IRCClient_Mac.framework */; };
+		CFE93C0620A3524900158F83 /* IRCClient_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE93C0520A3524900158F83 /* IRCClient_MacTests.swift */; };
+		CFE93C0820A3524900158F83 /* IRCClient_Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE93BFA20A3524800158F83 /* IRCClient_Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFE93C0F20A3525900158F83 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE93BEC20A3521700158F83 /* Client.swift */; };
+		CFE93C1020A3525900158F83 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE93BE920A3521700158F83 /* Controller.swift */; };
+		CFE93C1120A3525900158F83 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE93BED20A3521700158F83 /* Event.swift */; };
+		CFE93C1220A3525900158F83 /* IRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE93BEA20A3521700158F83 /* IRC.swift */; };
+		CFE93C1320A3525900158F83 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE93BEB20A3521700158F83 /* Message.swift */; };
+		CFE93C1520A3588700158F83 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CFE93C1420A3588700158F83 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +34,13 @@
 			remoteGlobalIDString = CFE93BCD20A351E900158F83;
 			remoteInfo = IRCClient;
 		};
+		CFE93C0220A3524900158F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE93BC520A351E900158F83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE93BF720A3524800158F83;
+			remoteInfo = "IRCClient-Mac";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +50,18 @@
 		CFE93BD720A351E900158F83 /* IRCClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRCClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE93BDC20A351E900158F83 /* IRCClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCClientTests.swift; sourceTree = "<group>"; };
 		CFE93BDE20A351E900158F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE93BE920A3521700158F83 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		CFE93BEA20A3521700158F83 /* IRC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IRC.swift; sourceTree = "<group>"; };
+		CFE93BEB20A3521700158F83 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CFE93BEC20A3521700158F83 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		CFE93BED20A3521700158F83 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		CFE93BF820A3524800158F83 /* IRCClient_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IRCClient_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE93BFA20A3524800158F83 /* IRCClient_Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRCClient_Mac.h; sourceTree = "<group>"; };
+		CFE93BFB20A3524800158F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE93C0020A3524900158F83 /* IRCClient-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IRCClient-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE93C0520A3524900158F83 /* IRCClient_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCClient_MacTests.swift; sourceTree = "<group>"; };
+		CFE93C0720A3524900158F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE93C1420A3588700158F83 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +80,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CFE93BF420A3524800158F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE93BFD20A3524900158F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE93C0120A3524900158F83 /* IRCClient_Mac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +103,10 @@
 			children = (
 				CFE93BD020A351E900158F83 /* IRCClient */,
 				CFE93BDB20A351E900158F83 /* IRCClientTests */,
+				CFE93BF920A3524800158F83 /* IRCClient-Mac */,
+				CFE93C0420A3524900158F83 /* IRCClient-MacTests */,
 				CFE93BCF20A351E900158F83 /* Products */,
+				CFE93C1420A3588700158F83 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +115,8 @@
 			children = (
 				CFE93BCE20A351E900158F83 /* IRCClient.framework */,
 				CFE93BD720A351E900158F83 /* IRCClientTests.xctest */,
+				CFE93BF820A3524800158F83 /* IRCClient_Mac.framework */,
+				CFE93C0020A3524900158F83 /* IRCClient-MacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +124,7 @@
 		CFE93BD020A351E900158F83 /* IRCClient */ = {
 			isa = PBXGroup;
 			children = (
+				CFE93BE820A351F500158F83 /* Classes */,
 				CFE93BD120A351E900158F83 /* IRCClient.h */,
 				CFE93BD220A351E900158F83 /* Info.plist */,
 			);
@@ -86,6 +140,36 @@
 			path = IRCClientTests;
 			sourceTree = "<group>";
 		};
+		CFE93BE820A351F500158F83 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CFE93BEC20A3521700158F83 /* Client.swift */,
+				CFE93BE920A3521700158F83 /* Controller.swift */,
+				CFE93BED20A3521700158F83 /* Event.swift */,
+				CFE93BEA20A3521700158F83 /* IRC.swift */,
+				CFE93BEB20A3521700158F83 /* Message.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CFE93BF920A3524800158F83 /* IRCClient-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				CFE93BFA20A3524800158F83 /* IRCClient_Mac.h */,
+				CFE93BFB20A3524800158F83 /* Info.plist */,
+			);
+			path = "IRCClient-Mac";
+			sourceTree = "<group>";
+		};
+		CFE93C0420A3524900158F83 /* IRCClient-MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE93C0520A3524900158F83 /* IRCClient_MacTests.swift */,
+				CFE93C0720A3524900158F83 /* Info.plist */,
+			);
+			path = "IRCClient-MacTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +178,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE93BDF20A351E900158F83 /* IRCClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE93BF520A3524800158F83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE93C0820A3524900158F83 /* IRCClient_Mac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +228,42 @@
 			productReference = CFE93BD720A351E900158F83 /* IRCClientTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CFE93BF720A3524800158F83 /* IRCClient-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE93C0920A3524900158F83 /* Build configuration list for PBXNativeTarget "IRCClient-Mac" */;
+			buildPhases = (
+				CFE93BF320A3524800158F83 /* Sources */,
+				CFE93BF420A3524800158F83 /* Frameworks */,
+				CFE93BF520A3524800158F83 /* Headers */,
+				CFE93BF620A3524800158F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IRCClient-Mac";
+			productName = "IRCClient-Mac";
+			productReference = CFE93BF820A3524800158F83 /* IRCClient_Mac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFE93BFF20A3524900158F83 /* IRCClient-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE93C0C20A3524900158F83 /* Build configuration list for PBXNativeTarget "IRCClient-MacTests" */;
+			buildPhases = (
+				CFE93BFC20A3524900158F83 /* Sources */,
+				CFE93BFD20A3524900158F83 /* Frameworks */,
+				CFE93BFE20A3524900158F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE93C0320A3524900158F83 /* PBXTargetDependency */,
+			);
+			name = "IRCClient-MacTests";
+			productName = "IRCClient-MacTests";
+			productReference = CFE93C0020A3524900158F83 /* IRCClient-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +276,15 @@
 				TargetAttributes = {
 					CFE93BCD20A351E900158F83 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					CFE93BD620A351E900158F83 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					CFE93BF720A3524800158F83 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					CFE93BFF20A3524900158F83 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -168,6 +303,8 @@
 			targets = (
 				CFE93BCD20A351E900158F83 /* IRCClient */,
 				CFE93BD620A351E900158F83 /* IRCClientTests */,
+				CFE93BF720A3524800158F83 /* IRCClient-Mac */,
+				CFE93BFF20A3524900158F83 /* IRCClient-MacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -177,10 +314,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE93C1520A3588700158F83 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CFE93BD520A351E900158F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE93BF620A3524800158F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE93BFE20A3524900158F83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,6 +346,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE93BF020A3521700158F83 /* Message.swift in Sources */,
+				CFE93BEF20A3521700158F83 /* IRC.swift in Sources */,
+				CFE93BF120A3521700158F83 /* Client.swift in Sources */,
+				CFE93BEE20A3521700158F83 /* Controller.swift in Sources */,
+				CFE93BF220A3521700158F83 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +362,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CFE93BF320A3524800158F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE93C0F20A3525900158F83 /* Client.swift in Sources */,
+				CFE93C1120A3525900158F83 /* Event.swift in Sources */,
+				CFE93C1320A3525900158F83 /* Message.swift in Sources */,
+				CFE93C1220A3525900158F83 /* IRC.swift in Sources */,
+				CFE93C1020A3525900158F83 /* Controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE93BFC20A3524900158F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE93C0620A3524900158F83 /* IRCClient_MacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -212,6 +389,11 @@
 			isa = PBXTargetDependency;
 			target = CFE93BCD20A351E900158F83 /* IRCClient */;
 			targetProxy = CFE93BD920A351E900158F83 /* PBXContainerItemProxy */;
+		};
+		CFE93C0320A3524900158F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE93BF720A3524800158F83 /* IRCClient-Mac */;
+			targetProxy = CFE93C0220A3524900158F83 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -339,6 +521,7 @@
 		CFE93BE320A351E900158F83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.aint.IRCClient;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +548,7 @@
 		CFE93BE420A351E900158F83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +574,7 @@
 		CFE93BE620A351E900158F83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDRP58XW4X;
 				INFOPLIST_FILE = IRCClientTests/Info.plist;
@@ -407,6 +593,7 @@
 		CFE93BE720A351E900158F83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDRP58XW4X;
 				INFOPLIST_FILE = IRCClientTests/Info.plist;
@@ -419,6 +606,106 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFE93C0A20A3524900158F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SDRP58XW4X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "IRCClient-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.aint.IRCClient-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		CFE93C0B20A3524900158F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SDRP58XW4X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "IRCClient-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.aint.IRCClient-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		CFE93C0D20A3524900158F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SDRP58XW4X;
+				INFOPLIST_FILE = "IRCClient-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.aint.IRCClient-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		CFE93C0E20A3524900158F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SDRP58XW4X;
+				INFOPLIST_FILE = "IRCClient-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.aint.IRCClient-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -448,6 +735,24 @@
 			buildConfigurations = (
 				CFE93BE620A351E900158F83 /* Debug */,
 				CFE93BE720A351E900158F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE93C0920A3524900158F83 /* Build configuration list for PBXNativeTarget "IRCClient-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE93C0A20A3524900158F83 /* Debug */,
+				CFE93C0B20A3524900158F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE93C0C20A3524900158F83 /* Build configuration list for PBXNativeTarget "IRCClient-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE93C0D20A3524900158F83 /* Debug */,
+				CFE93C0E20A3524900158F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
